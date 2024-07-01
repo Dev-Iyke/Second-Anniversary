@@ -1,0 +1,18 @@
+{
+  "name": "Scrim-s0nn5k9eub",
+  "description": "https://v2.scrimba.com/s04asaa?utm_campaign=Landing%20Page%20or%20Form%20-%201388996&utm_medium=email&utm_source=convertkit",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "js-confetti": "0.10.2",
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}

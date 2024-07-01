@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: navy;
+    color: gold;
+    text-align: center;
+    width: 100%;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    color: #eee;
+     margin-bottom: 4.5rem;
+}
+.hero{
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    font-family: "Love Light", 'cursive', 'sans-serif';
+    font-size: 2rem;
+}
+.img{
+    width: 300px;
+    margin: 0 auto 2rem;
+}
+img{
+    width: 100%;
+}
+.message{
+    width: 60%;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .1rem;
+}
+button {
+    background-color: #5B49C7;
+    border-radius: 6px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 1rem 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom:.5rem;
+}
+#reward-button{
+    background-color: gold;
+    color: navy;
+}
+button:hover {
+    background-color: #40309c;
+}
+.reward{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: gold;
+    display: none;
+}
+
+@media (max-width:550px) {
+    .hero{
+        font-size: 3rem;
+    }
+    .img{
+        width: 90%;
+    }
+    .message{
+        width: 85%;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: .1rem;
+    }
+    .message h2{
+        font-size: 4rem;
+    }
+}
